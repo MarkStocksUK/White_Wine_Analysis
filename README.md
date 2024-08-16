@@ -301,14 +301,14 @@ weighted avg       0.98      0.98      0.98      3402
 ```
 98% accuracy using the Extra Trees model, further improvements, and an improved confusion matrix again.
 
-### Extra Tress Confusion Matrix
+### Extra Trees Confusion Matrix
 Let's look closer at the confusion matrix. We will normalise the results to percentages to make it easier to compare classes and display it as a heatmap.
   
   ![Extra Trees Confusion Matrix](images/Results/ET_Confusion_Matrix.jpg)
   
 This highlights that the model is excellent at classifying good wines. Its worst performance is when it incorrectly classifies average wines as bad 3% of the time.
 
-#### Extra Trees Feature Importance
+### Extra Trees Feature Importance
   
   ![Extra Trees Feature Importance](images/Results/ET_Feature_Importance.jpg)
   
