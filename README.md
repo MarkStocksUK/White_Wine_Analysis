@@ -116,7 +116,14 @@ Nah, let's do it properly.
 ### Handling unbalanced data
 To counter this, the dataset was balanced by using an oversampling technique called SMOTE. This is a method of over-sampling the minority class by creating synthetic minority class examples. Following this we have a balanced dataset.
 
-  `Counter(wwdata['Banding'])`
+  ```
+  from imblearn.over_sampling import SMOTE
+  oversample = SMOTE(k_neighbors=4)
+  # transform the dataset
+  x, y = oversample.fit_resample(x, y)
+
+  Counter(wwdata['Banding'])
+  ```
 
   ![Banding count after](images/Data_Analysis/banding_counter_after.jpg)
 
@@ -319,6 +326,7 @@ We have shown a good level of accuracy with the work, but we must always look fo
 - Are there other datasets available, can we expand this to more than just the subset of Portuguese Vinho Verde wines?
 - Can we improve performance further by using other modelling techniques?
 - We should automate some of the data cleaning and preparation steps.
+- Can we add a simple user interface?
 
 ### Limitations of this project
 - In winemaking certain years are noted for their good wines but there is no *year* column in the dataset. If we had that variable we could analyse if there was any variance in quality across the years.
