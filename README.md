@@ -15,7 +15,7 @@ I then compared the performance of four models: Logistical Regression, Decision 
 
 ### Data Source
 The dataset has been available for 15 years and contains data on 9999 Portuguese wines. I am focussing on the white wine data, as less work has been done with this data
-[link to dataset](https://archive.ics.uci.edu/dataset/186/wine+quality). The data was downloaded as a CSV, imported into Google Colab and then loaded into a Pandas dataframe using the `pd.read.csv` command.
+([link to dataset](https://archive.ics.uci.edu/dataset/186/wine+quality)). The data was downloaded as a CSV, imported into Google Colab and then loaded into a Pandas dataframe using the `pd.read.csv` command.
 
 ### Initial Exploration
 First up, a quick check on the data structure. 
