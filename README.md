@@ -1,4 +1,5 @@
 # White Wine Quality Prediction using Python and SciKitLearn
+![banner image](images/thomas-martinsen-Eo9ZNtEUH_Y-unsplash.jpg)
 
 -----
 [Repository Link](https://github.com/MarkStocksUK/White_Wine_Analysis)
