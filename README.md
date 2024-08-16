@@ -272,7 +272,7 @@ Classification report
    macro avg       0.97      0.97      0.97      3402
 weighted avg       0.97      0.97      0.97      3402
 ```
-97% accuracy using Random Forest, another improvement on the Decision Tree model and the confusion matrix is looking good too.
+97% accuracy using Random Forest, another improvement on the Decision Tree model and the confusion matrix, is also looking good.
 
 #### Extra Trees
 ```
@@ -321,5 +321,5 @@ We have shown a good level of accuracy with the work, but we must always look fo
 - We should automate some of the data cleaning and preparation steps.
 
 ### Limitations of this project
--We have looked at the whole dataset, but in winemaking certain years are noted for their good wines. There is no year column in the dataset, if we had that we could also analyse if there was any variance in quality across the years.
+- In winemaking certain years are noted for their good wines but there is no *year* column in the dataset. If we had that variable we could analyse if there was any variance in quality across the years.
 - My data science knowledge is still limited, so it could be argued that I am a limitation on the project.
